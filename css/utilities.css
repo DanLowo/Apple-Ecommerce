@@ -102,7 +102,7 @@ button.outline:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid lightgray;
+    border: 1px solid var(--border-gray);
     gap: 20px;
     padding: 30px 15px;
 }
@@ -157,7 +157,7 @@ button.outline:hover {
 
 .four-cols .card {
     text-align: center;
-    border: 1px solid lightgray;
+    border: 1px solid var(--border-gray);
     gap: 20px;
     padding: 20px 15px;
     margin-bottom: 25px;

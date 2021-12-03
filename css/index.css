@@ -3,6 +3,7 @@
     --orange: #E97007;
     --backgound-light-gray: #F4F4F4;
     --light-gray: #b6aeae;
+    --border-gray: #e9e2e2;
 }
 
 * {
@@ -70,7 +71,7 @@ nav .navigation .icons i {
 nav input#search {
     padding: 8px 10px;
     border-radius: 10px;
-    border: 1px solid var(--gray);
+    border: 1px solid var(--border-gray);
 }
 
 nav input#search:focus {
@@ -158,7 +159,7 @@ nav input#search:focus {
 }
 
 .best-sellers .actions button:nth-child(2) {
-    border-color: var(--gray);
+    border-color: var(--border-gray);
 }
 
 
@@ -227,18 +228,18 @@ nav input#search:focus {
     gap: 20px;
     align-items: center;
     padding: 25px 25px;
-    border: 1px solid var(--light-gray);
+    border: 1px solid var(--border-gray);
     border-radius: 15px;
     width: 45%;
 }
 
 .testimony .client-info {
     width: 27%;
-    border-right: 1px solid var(--light-gray);
+    border-right: 1px solid var(--border-gray);
 }
 
 .testimony img {
-    border: 1px solid lightgray;
+    border: 1px solid var(--border-gray);
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -304,7 +305,7 @@ footer input {
     padding: 8px;
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
-    border: 1px solid var(--light-gray);
+    border: 1px solid var(--border-gray);
     border-right: 0;
     outline: none;
 }
