@@ -1,0 +1,235 @@
+@media screen and (max-width: 550px) {
+    /* UTILITIES */
+    #only-desktop {
+        display: none;
+    }
+
+    .lg-section-padding {
+        padding: 12px 0vw;
+    }
+
+    .v-padding {
+        padding: 10px 0;
+    }
+
+    .md-section-padding {
+        padding: 10px 5vw;
+    }
+
+
+    /* TWO COLS CARD */
+    /* Turn into a single cols */
+    .two-cols {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .two-cols > div {
+        width: 90%;
+    }
+
+    .two-cols .card .ratings i {
+        font-size: 10px;
+    }
+
+    .two-cols .card h2 {
+        font-size: 15px;
+    }
+
+    .two-cols .card .prices span {
+        font-size: 14px;
+    }
+
+    .two-cols .card .special-offer > h4 {
+        font-size: 12px;
+    }
+
+    .two-cols .card .special-offer .count-down h3 {
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+    .two-cols .card .special-offer .count-down p {
+        font-size: 10px;
+    }
+
+
+    /* FOUR COLS CARD */
+    /* Turn into two cols */
+    .four-cols > div {
+        width: 39%;
+    }
+
+    .four-cols .card {
+        margin-top: 10px;
+    }
+
+    .four-cols .card h2 {
+        font-size: 14px;
+    }
+
+    .four-cols .card .price {
+        font-size: 14px;
+    }
+
+    .four-cols .card .ratings i {
+        font-size: 10px;
+    }
+
+    .four-cols .card button {
+        margin-top: 5px;
+        padding: 7px 14px;
+    }
+
+
+
+    /* HEADER */
+    header {
+        font-size: 11px;
+    }
+
+    /* NAVIGATION */
+    nav .container h1 {
+        font-size: 25px;
+    }
+
+    nav .navigation {
+        justify-content: center;
+    }
+
+    nav .navigation .input {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav .navigation input {
+        width: 70%;
+    }
+
+
+
+    /* JUMBOTRON */
+    .jumbotron {
+        flex-direction: column-reverse;
+    }
+
+    .jumbotron .content {
+        width: 100%;
+    }
+
+    .jumbotron .content h1 {
+        font-size: 25px;
+    }
+
+
+
+    /* OFFERS */
+    .offers {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 30px !important;
+    }
+    
+    .offer {
+        margin-top: 10px;
+        width: 45%;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+
+    /* DEALS */
+    .deals h1 {
+        font-size: 20px;
+    }
+
+
+    /* DEALS OF THE DAY */
+    .best-sellers .header h2 {
+        font-size: 20px;
+    }
+
+    .best-sellers .actions button {
+        padding: 8px 16px;
+    }
+
+
+
+    /* UPCOMING */
+    .upcoming {
+        flex-direction: column;
+    }
+
+    .upcoming .details {
+        position: static;
+    }
+
+    .upcoming h2 {
+        font-size: 25px;
+        width: 100%;
+    }
+
+
+
+    /* TESTIMONIALS */
+    .testimonials .header h2 {
+        font-size: 25px;
+    }
+
+    .testimonials .header p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .testimonies {
+        flex-direction: column;
+    }
+
+    .testimony {
+        width: 85%;
+    }
+
+    .testimony .client-info {
+        border-right: none
+    }
+
+    .testimony p {
+        line-height: 20px;
+    }
+
+    .testimony .qoute {
+        width: 70%;
+    }
+
+
+
+    /* FOOTER */
+    footer .container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    footer .links {
+        gap: 40px;
+    }
+
+    footer .subscribe p {
+        font-size: 15px;
+    }
+
+    footer .credits {
+        margin-bottom: 15px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+}
